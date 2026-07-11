@@ -1,38 +1,89 @@
-e:\portfolio
-├── index.html
-├── khalil-portfolio-v3.html
-├── package.json
-├── package-lock.json
-├── vite.config.js
-├── dist/
-│   ├── index.html
-│   └── assets/
-│       ├── index-BDLAdhyt.css
-│       └── index-mQsWu6d2.js
-├── node_modules/ (generated, not expanded)
-└── src/
-    ├── App.jsx
-    ├── main.jsx
-    ├── styles.css
-    ├── data/
-    │   └── projects.js
-    ├── pages/
-    │   ├── Home.jsx
-    │   └── ProjectDetail.jsx
-    └── projects/
-        ├── academic-project/
-        │   └── index.js
-        ├── ml-project/
-        │   └── index.js
-        ├── mobile-project/
-        │   ├── index.js
-        │   └── images/
-        │       └── README.md
-        ├── platform-project/
-        │   └── index.js
-        ├── project-alpha/
-        │   ├── index.js
-        │   └── images/
-        │       └── README.md
-        └── web-project/
-            └── index.js
+E:\PORTFOLIO
+|
+|-- .env
+|-- .gitignore
+|-- index.html
+|-- package-lock.json
+|-- package.json
+|-- project-structure.txt
+|-- vite.config.js
+|
+|-- public/
+|   |-- favicon.png
+|   |-- robots.txt
+|   |-- sitemap.xml
+|
+|-- src/
+|   |-- App.jsx
+|   |-- main.jsx
+|   |-- styles.css
+|   |
+|   |-- components/
+|   |   |-- ErrorBoundary.jsx
+|   |
+|   |-- contexts/
+|   |   |-- LanguageContext.jsx
+|   |
+|   |-- data/
+|   |   |-- projects.js
+|   |
+|   |-- hooks/
+|   |   |-- usePageMeta.js
+|   |
+|   |-- i18n/
+|   |   |-- translations.js
+|   |
+|   |-- images/
+|   |   |-- about/
+|   |   |   |-- Gemini_Generated_Image_3b84vh3b84vh3b84.png
+|   |   |   |-- Khalil.jpg
+|   |   |   |-- Khalil_Fraj_CV.docx
+|   |   |
+|   |   |-- bytebattle/
+|   |   |   |-- bb1.png
+|   |   |   |-- bb2.png
+|   |   |   |-- bb3.png
+|   |   |   |-- bb4.png
+|   |   |   |-- bb5.png
+|   |   |   |-- bb6.png
+|   |   |   |-- bb7.png
+|   |   |
+|   |   |-- eshop/
+|   |   |   |-- eshop.png
+|   |   |   |-- eshop2.png
+|   |   |   |-- eshop3.png
+|   |   |   |-- eshop4.png
+|   |   |   |-- eshop8.png
+|   |   |
+|   |   |-- learnify/
+|   |       |-- learnify1.jpg
+|   |       |-- learnify2.jpg
+|   |       |-- learnify3.jpg
+|   |       |-- learnify4.jpg
+|   |
+|   |-- pages/
+|   |   |-- ProjectDetail.jsx
+|   |   |-- Home.jsx
+|   |
+|   |-- projects/
+|       |-- academic-project/
+|       |   |-- index.js
+|       |
+|       |-- ml-project/
+|       |   |-- index.js
+|       |
+|       |-- mobile-project/
+|       |   |-- index.js
+|       |   |-- images/
+|       |       |-- README.md
+|       |
+|       |-- platform-project/
+|       |   |-- index.js
+|       |
+|       |-- project-alpha/
+|       |   |-- index.js
+|       |   |-- images/
+|       |       |-- README.md
+|       |
+|       |-- web-project/
+|           |-- index.js
